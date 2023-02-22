@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+span {
+  font-weight: bold;
+}
+
+td:first-child {
+  text-align: right;
+}
+
+select, input[type=text], input[type=password], textarea {
+  width: 100%;
+  height: 35px;
+}
+
+tr, td {
+  padding: 2px;
+}
+
+textarea {
+  height: 70px;
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+}
+
+input[type=password] {
+  background-color: pink;
+  border: 2px solid #7a4061;
+}
+
+input[type=text] {
+  background-color: yellow;
+  border: 2px solid #7c7c40;
+}
+
+select {
+  background-color: #9a9ae1;
+  border: 2px solid darkblue;
+}
+
+button[type=submit] {
+  background-color: lightgreen;
+}
+
+button[type=reset] {
+  background-color: lightcoral;
+}
+
+/*# sourceMappingURL=form.css.map */

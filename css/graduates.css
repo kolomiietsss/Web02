@@ -1,0 +1,48 @@
+* {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.2rem;
+}
+
+.feedback {
+  margin: 50px;
+  display: flex;
+}
+.feedback_info {
+  text-align: center;
+}
+.feedback_photo img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.feedback_text {
+  margin-left: 100px;
+  width: 400px;
+}
+.feedback_text span {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
+.feedback_text:before {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../quote.png");
+  content: "";
+  left: -40px;
+}
+.feedback_text:after {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../quote.png");
+  content: "";
+  float: right;
+  left: 40px;
+}
+
+/*# sourceMappingURL=graduates.css.map */
